@@ -1,0 +1,227 @@
+body {
+    color: #958b85;
+}
+
+.header {
+    border-bottom: 1px solid #e9dfd6;
+}
+
+.header__inner {
+    margin: 0 auto;
+    height: 55px;
+    text-align: center;
+}
+
+.header__logo {
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin: 30px auto;
+    text-align: center;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 23px;
+    font-family: "Merriweather", serif;
+}
+
+.form {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.form__group {
+    width: 100%;
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.form__group-title {
+    margin-right: 5%;
+    width: 30%;
+    text-align: left;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    color: #ff0000;
+}
+
+.form__group-content {
+    width: 65%;
+}
+
+.form__error {
+    height: 20px;
+    text-align: left;
+}
+
+.message {
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: #f4f4f4;
+    color: #e96363;
+    font-size: 14px;
+}
+
+.message__first-name {
+    margin-left: 198px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: #f4f4f4;
+    color: #e96363;
+    font-size: 14px;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px 30px;
+    width: 100%;
+    border: none;
+    background: #f4f4f4;
+    outline: none;
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 120px;
+    padding-top: 20px;
+    resize: none;
+}
+
+.form__input--nametext {
+    display: flex;
+    gap: 10%;
+}
+
+.form__input--nametext input {
+    padding: 10px 30px;
+    width: 45%;
+    height: 40px;
+    border: none;
+    background: #f4f4f4;
+    outline: none;
+}
+
+.form__input--gendertext {
+    display: flex;
+}
+
+.gender {
+    margin-right: 10%;
+}
+
+.gender input {
+    margin: 0 10px;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 1px solid #8b7969;
+    background-color: #fff;
+    appearance: none;
+}
+
+.gender input:checked {
+    background-color: #8b7969;
+}
+
+.form__input--teltext {
+    display: flex;
+    gap: 17px;
+}
+
+.form__input--teltext input {
+    padding: 10px;
+    height: 40px;
+    border: none;
+    background: #f4f4f4;
+    text-align: center;
+    outline: none;
+}
+
+.form__input--buildingtext input {
+    padding: 10px 30px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    background: #f4f4f4;
+    outline: none;
+    appearance: none;
+}
+
+.form__input--select {
+    padding: 10px 0px 10px 30px;
+    width: 50%;
+    height: 40px;
+    border: none;
+    background: #f4f4f4;
+    text-align: left;
+    position: relative;
+}
+
+.form__input--select::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-top: 12px solid #beb1a6;
+    border-bottom: 0;
+    pointer-events: none;
+}
+
+select {
+    width: 100%;
+    appearance: none;
+    border: none;
+    background: #f4f4f4;
+    color: #8b7969;
+    outline: none;
+}
+
+.form__button {
+    margin: 20px auto;
+}
+
+.form__button-submit {
+    width: 17%;
+    height: 45px;
+    border: none;
+    background: #82756a;
+    color: #fff;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "Number";
+    src: local("Merriweather");
+    unicode-range: U+0030-0039;
+}
+
+@font-face {
+    font-family: "Alphabet";
+    src: local("Merriweather");
+    unicode-range: U+0041-005A, U+0061-007A;
+}
+
+body {
+    font-family: "Number", "Alphabet", "Inter", "sans-serif";
+}
